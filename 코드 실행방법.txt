@@ -1,0 +1,11 @@
+1. 학습정보 수정
+- config->st_gcn->hanchoom-> .yaml파일 수정
+
+2. 학습
+- train.yaml 파일 수정
+- 터미널창 python main.py 실행
+
+3. 추론 및 예측
+- test.yaml파일 수정
+- video_predict.py 수정
+- 터미널 python video_predict.py 실행

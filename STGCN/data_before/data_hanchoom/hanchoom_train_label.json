@@ -1,0 +1,57 @@
+{
+    "breathing_01": {
+        "has_skeleton": true, 
+        "label": "breathing", 
+        "label_index": 0
+    },
+    "step_01": {
+        "has_skeleton": true, 
+        "label": "step_sawi", 
+        "label_index": 1
+    },
+    "step_02": {
+        "has_skeleton": true, 
+        "label": "step_sawi", 
+        "label_index": 1
+    },
+    "step_03": {
+        "has_skeleton": true, 
+        "label": "step_sawi", 
+        "label_index": 1
+    },
+    "step_04": {
+        "has_skeleton": true, 
+        "label": "step_sawi", 
+        "label_index": 1
+    },
+    "jump_sawi_01": {
+        "has_skeleton": true, 
+        "label": "jump_sawi", 
+        "label_index": 2
+    },
+    "jump_sawi_02": {
+        "has_skeleton": true, 
+        "label": "jump_sawi", 
+        "label_index": 2
+    },
+    "jump_sawi_03": {
+        "has_skeleton": true, 
+        "label": "jump_sawi", 
+        "label_index": 2
+    },
+    "jump_sawi_04": {
+        "has_skeleton": true, 
+        "label": "jump_sawi", 
+        "label_index": 2
+    },
+    "jump_sawi_05": {
+        "has_skeleton": true, 
+        "label": "jump_sawi", 
+        "label_index": 2
+    },
+    "jump_sawi_06": {
+        "has_skeleton": true, 
+        "label": "jump_sawi", 
+        "label_index": 2
+    }
+}

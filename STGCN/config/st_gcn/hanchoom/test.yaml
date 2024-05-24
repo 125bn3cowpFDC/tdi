@@ -1,0 +1,29 @@
+# feeder
+feeder: st_gcn.feeder.Feeder_hanchoom
+test_feeder_args:
+  mode: test 
+  data_path: ./data_hanchoom_final/hanchoom_val
+  label_path : ./data_hanchoom_final/hanchoom_val_label.json
+  window_size: 100 
+
+# model
+model: st_gcn.net.ST_GCN
+model_args:
+  num_class: 8
+  channel: 3
+  window_size: 100
+  num_person: 1
+  num_point: 18
+  dropout: 0
+  graph: st_gcn.graph.Hanchoom
+  graph_args:
+    labeling_mode: 'spatial'
+  mask_learning: True
+  use_data_bn: True
+
+
+# test 
+phase: test
+device: 0
+test_batch_size: 1
+weights: /home/smaipcjjh/Documents/project/ai_project/STGCN/work_dir/Hanchoom/ST_GCN/Final4/epoch30_model.pt
