@@ -73,6 +73,14 @@ if ((count>=100) and ((count % 10)==0)):
 + 데이터 하나 당 100프레임 간 정보 저장
 + 이후 10프레임 씩 영상이 진행되며 데이터 생성
 ---
-###Piprline
+###Model pipeline
+![st](https://github.com/125bn3cowpFDC/tdi/assets/170291905/995c1336-68e3-4827-b9c1-06879d5cdc63)
+
+
+---
+
+###Model Architecture
 ![stm](https://github.com/125bn3cowpFDC/tdi/assets/170291905/881590f5-ed4f-411c-8dd7-bb361c01d375)
 
+
+- spatial과 tempral module을 통해 featuremap을 형성한 후 FClayer를 거쳐 추정한다.
