@@ -50,6 +50,7 @@ for i in range(0, 29):
 
  ```
 + 기존 st-gcn에 사용된 skeleton모델은 openPose에서 사용 -> mediapipe-pose로 추출방법 변경에 따른 point 인지
++ 임의의 가슴 중점 landmarks[11].x + landmarks[12].x)/2 생성
 ```
 if count <= 100:
     file_data["data"].append({'frame_index': round(count) ,"skeleton":[{'pose':a,'score':[1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000]}]})
