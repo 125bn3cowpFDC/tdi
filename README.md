@@ -1,7 +1,7 @@
 # Korean Traditional Dance Lesson
 + Language : Python3.7
 + Framework & Model : Mediapipe-Pose, ST-GCN, Pytorch
-
++ 참고자료 : https://github.com/yysijie/st-gcn
 ---
 ## ML Model
 ### ST-GCN
